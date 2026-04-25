@@ -1,0 +1,17 @@
+# Inference (Apple Silicon, default backend)
+mlx-vlm>=0.3.9; sys_platform == "darwin" and platform_machine == "arm64"
+
+# Inference (CUDA / non-Apple fallback)
+torch>=2.1
+transformers>=4.45
+accelerate>=0.30
+
+# Image handling
+pillow>=10.0
+pydicom>=2.4
+numpy>=1.26
+
+# Evaluation
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4

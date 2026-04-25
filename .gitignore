@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Model weights — never commit
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+models/
+weights/
+checkpoints/
+
+# Dataset — never commit (MURA is gated by Stanford AIMI)
+data/
+mura/
+MURA-v1.1/
+
+# Manifests and intermediate CSVs (gated until publication)
+*_manifest.json
+manifests/
+*_views.csv
+*_predictions.csv
+
+# Run outputs (held private until publication)
+results/
+runs/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Sync artefacts
+*.lnk
+*~$*

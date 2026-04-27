@@ -51,7 +51,7 @@ This emits `metrics_overall.json`, `metrics_per_anatomy.json`, `mcnemar.json`, a
 
 ## Collaborate
 
-Open to research collaboration, evaluation partnerships, and downstream applications — [open an issue](https://github.com/bschwaiger/axis-mura/issues/new) to get in touch.
+Open to research collaboration, evaluation partnerships, and downstream applications — reach out via [LinkedIn](https://www.linkedin.com/in/benedikt-schwaiger/) or [open an issue](https://github.com/bschwaiger/axis-mura/issues/new).
 
 ## Citation
 

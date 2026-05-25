@@ -38,3 +38,7 @@ runs/
 # Sync artefacts
 *.lnk
 *~$*
+
+# Project-local config (not part of the public model card)
+CLAUDE.md
+axis.md
